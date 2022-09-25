@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+
+.cabecalho {
+  background: no-repeat url(Imagens/banner-3542404_1280.jpg);
+  background-size: 100%;
+}
+
+body {
+  background: no-repeat
+    url(https://images.wallpaperscraft.com/image/single/black_light_dark_figures_73356_1920x1080.jpg);
+  background-size: cover;
+}
+
+@font-face {
+  font-family: headerFont;
+  src: url(Fontes/EASPORTS15.ttf);
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  font-family: headerFont;
+  background-color: rgb(51, 49, 49);
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  border-top: 2px solid #d11d2f;
+  border-bottom: 2px solid #d11d2f;
+  text-shadow: 2px 2px #dddada;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: rgb(7, 7, 7);
+  display: flex;
+  margin: 10px 0;
+  color: rgb(226, 222, 222);
+  font-size: 20px;
+  border-radius: 10px;
+  border-top: 2px solid #d11d2f;
+  border-bottom: 2px solid #d11d2f;
+  margin-top: 35px;
+}
+
+section:hover {
+  background-color: rgb(17, 17, 17);
+}
+
+footer {
+  background-color: black;
+  color: rgb(185, 181, 181);
+  font-size: 22px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  margin-top: 10px;
+  height: 40px;
+  padding-top: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.jogadores section ul {
+  padding: 38px;
+}
+
+.jogadores section ul li {
+  list-style-type: none;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.buscador input {
+  margin-left: 256px;
+  width: 200px;
+  height: 25px;
+  font-size: 16px;
+}
+
+.buscador button {
+  font-size: 16px;
+}
+
+.buscador button:hover {
+  background-color: darkgray;
+  color: black;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+
+.buscador button:active {
+  background: #747272;
+  color: white;
+}
+
+/* footer a:link{
+color: grey;
+} */
+
+/* footer a:visited{
+color: grey;
+} */
