@@ -229,7 +229,7 @@ if (objeto4["status"]) {
 console.log(jogadoresCraques);
 
 // Reescrevendo o relatório criado utilizando console.log() que começamos na semana 2,
-// altere a forma que a característicade array dos itens seja escrita como um laço queguarde todos
+// altere a forma que a característica de array dos itens seja escrita para um laço que guarde todos
 // os valores da propriedade array do objeto em uma mesma string. Utilize esta string no relatório.
 
 const formatarCaracteristica = (objeto) => {
@@ -258,19 +258,17 @@ console.log(objeto1, objeto2, objeto3, objeto4);
 //Crie uma função que receba como parâmetro um objeto, e devolva a string do relatório com os dados do objeto.
 
 const caracteristicaString = (objeto) => {
-  let caracteristica = objeto.caracteristica.join(", ");
-
-  objeto.caracteristica = caracteristica;
-
-  return objeto.caracteristica;
+  return (objeto.caracteristica = objeto.caracteristica.join(", "));
 };
 
 console.log(caracteristicaString(objeto3));
 console.log(caracteristicaString(objeto4));
 
-//  Crie uma função que recebe um array de objetos e uma string. Esta função deve retornar um objeto,
-//  e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro.
-//  Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
+//  1) Crie uma função que recebe um array de objetos e uma string. Esta função deve retornar um array.
+
+//  2) O array retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro.
+
+//  3) Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
 
 const arrayJogadores = [objeto1, objeto2, objeto3, objeto4];
 

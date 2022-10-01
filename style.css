@@ -32,11 +32,16 @@ header {
 }
 
 main {
+  display: grid inline-grid;
+  padding: 1%;
+}
+
+/* main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 section {
   background-color: rgb(7, 7, 7);
@@ -48,6 +53,11 @@ section {
   border-top: 2px solid #d11d2f;
   border-bottom: 2px solid #d11d2f;
   margin-top: 35px;
+}
+
+section img {
+ 
+  border-radius: 15%;
 }
 
 section:hover {
@@ -91,11 +101,11 @@ img {
   justify-content: flex-start;
   height: 100%;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 
 .buscador input {
-  margin-left: 256px;
+  margin-left: 1%;
   width: 200px;
   height: 25px;
   font-size: 16px;
@@ -124,3 +134,31 @@ color: grey;
 /* footer a:visited{
 color: grey;
 } */
+
+@media (max-width: 400px) {
+
+header {
+  font-size: 30px;
+}
+
+.buscador {
+  padding-left: 14.5%;
+}
+
+  section {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+section img {
+  margin-top: 5%;
+  margin-left: 18%;
+  border-radius: 15%;
+}
+
+  .jogadores{
+    padding: 5%;
+  }
+  
+}
